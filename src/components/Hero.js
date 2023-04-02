@@ -5,22 +5,29 @@ import { motion } from 'framer-motion';
 
 
 import Header from './Header'
+import About from './About';
+import Menu from './Menu';
+
 
 import { fadeIn,staggerContainer } from '../variants';
+import Team from './Team';
+import Testimonial from './Testimonial';
+import Reservation from './Reservation';
+import Footer from './Footer';
+
 
 const Hero = () => {
 
   const {pretitle , title,subtitle,btnText  } = heroData
 
   return (
-
+<>
     <section className='main-h-[980px] bg-hero bg-cover bg-right'>
       
 
       <Header/>
+
       
-
-
     <div className='container mx-auto min-h-[680px] flex justify-center items-center mt-1'>
 
 <motion.div variants={staggerContainer(0.3, 1)} initial = 'hidden' whileInView={'show'}  className='text-center flex flex-col items-center rounded-lg py-3'>
@@ -37,6 +44,14 @@ const Hero = () => {
 
     </section>
 
+    <About/>
+    <Menu/>
+    <Team />
+    <Testimonial/>
+    <Reservation/>
+    
+
+    </>
   )
 };
 
