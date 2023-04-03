@@ -22,12 +22,10 @@ function Login() {
       </motion.div>
 
       <motion.div variants={fadeIn('down','spring',0.2, 1.1,1000,400)} className='text-white text-[24px] lg:text-[28]  font-primary italic lg:font-medium mb-1'>
-        <label className='text-black mx-4'>Name</label>
-        <input type='text' placeholder='Enter Your Name' className='input my-4 mb-10 text-gray-500'/>
+        <label className='text-black mx-4'>email</label>
+        <input type='email' placeholder='Enter Your email' className='input my-4 mb-10 text-gray-500'/>
       </motion.div>
-
-  
-
+      
       <motion.div variants={fadeIn('down','spring',0.2, 1.1,1000,400)} className='text-white text-[24px] lg:text-[28]  font-primary italic lg:font-medium mb-1 relative '>
       <label className='text-black mx-4'>password</label>
         <input type='password' placeholder='Enter your Passowrd'  className='input my-4 mb-20 text-gray-500' />

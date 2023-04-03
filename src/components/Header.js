@@ -84,11 +84,17 @@ const Header = () => {
         </div>
        <div className='block  ml-8    lg:flex lg:ml-96    capitalize font-primary italic '>
         <div className='bg-pink-200/20  mb-2 lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6 text-2xl'><Link to = '/'> Home</Link></div>
-        <div className='bg-pink-200/20 mb-2  lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6 text-2xl'><a href='#'> Menu</a></div>
+
+        <div className='bg-pink-200/20 mb-2  lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6 text-2xl'><Link to='/menu'> Menu</Link></div>
+
         <div className='bg-pink-200/20 mb-2 lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6  text-2xl'><a href='#'> Menu</a></div>
+
         <div className='bg-blue-300/50 mb-2 lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6  text-2xl'><Link to='/login'> Login</Link></div>
+
         <div className='bg-red-700/40 mb-2 lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6  text-2xl'><Link to= '/register'> Register</Link></div>
+
         </div>
+        
         <motion.div  variants={navVariants} initial = 'hidden' animate = {nav ? 'show' : ''}  className='absolute bg-accent w-[310px] h-[50vh]   right-0 lg:left-0 top-[120px] bottom-0 z-50 rounded-lg shadow-xl'>
           <Nav/>
         </motion.div>

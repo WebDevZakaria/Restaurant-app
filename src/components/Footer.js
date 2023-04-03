@@ -26,8 +26,7 @@ const Footer = () => {
             <div className='capitalize'>{contact.address}</div>
             <div className='capitalize'>{contact.phone}</div>
           </div>
-
-
+          
           <div className='flex-1'>
           <div className='capitalize text-[20px] lg:text-[22px] font-normal text-white font-primary  mb-[22px] mt-3 '>{hours.title}</div>
             <div className='flex gap-x-[46px]'>

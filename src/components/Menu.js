@@ -5,9 +5,8 @@ import { motion } from 'framer-motion';
 import { fadeIn ,staggerContainer } from '../variants';
 
 const Menu = () => {
-
+  
   const {title, subtitle, modelImg,menuItems,btnText } = menuData
-
 
   return <section className='min-h-[780px] '>
 

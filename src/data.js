@@ -65,7 +65,7 @@ import {
         image: MenuImg1,
         name: 'Chocolate Cake',
         price: '$7.99',
-        description: 'Class aptent taciti ciosqu litora torquent per',
+        description: 'Class aptent taciti ciosqu litora torquent per Class aptent taciti ciosqu litora torq',
       },
       {
         image: MenuImg2,
