@@ -24,9 +24,7 @@ const Hero = () => {
 <>
     <section className='main-h-[980px] bg-hero bg-cover bg-right'>
       
-
       <Header/>
-
       
     <div className='container mx-auto min-h-[680px] flex justify-center items-center mt-1'>
 

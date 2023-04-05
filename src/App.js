@@ -7,7 +7,7 @@ import Register from './components/Register';
 import Login from './components/Login';
 import AllMenu from './components/AllMenu';
 import SingleMenu from './components/SingleMenu';
-
+import Cards from './components/Cards';
 import  {Route,Routes,BrowserRouter} from 'react-router-dom'
 
 
@@ -24,8 +24,7 @@ const App = () => {
 <Route path='/login' element = {<Login/>}/>
 <Route path='/menu' element = {<AllMenu/>}/>
 <Route path='/singleorder' element = {<SingleMenu/>}/>
-
-
+<Route path='/addtocard' element = {<Cards/>}/>
 
 </Routes>
 <Footer />

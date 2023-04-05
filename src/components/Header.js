@@ -87,7 +87,7 @@ const Header = () => {
 
         <div className='bg-pink-200/20 mb-2  lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6 text-2xl'><Link to='/menu'> Menu</Link></div>
 
-        <div className='bg-pink-200/20 mb-2 lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6  text-2xl'><a href='#'> Menu</a></div>
+        <div className='bg-pink-200/20 mb-2 lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6  text-2xl'><Link to='/addtocard'> Card</Link></div>
 
         <div className='bg-blue-300/50 mb-2 lg:p-2 rounded-xl hover:bg-white hover:text-black   mx-6  text-2xl'><Link to='/login'> Login</Link></div>
 

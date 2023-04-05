@@ -3,6 +3,7 @@ import React from 'react';
 import { menuData } from '../data';
 import { motion } from 'framer-motion';
 import { fadeIn ,staggerContainer } from '../variants';
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
   
@@ -51,7 +52,8 @@ const Menu = () => {
 })}
 </div>
 </div>
-<button className=' btn mx-auto capitalize '>{btnText}</button>
+<Link to = '/menu'><button className=' btn mx-auto capitalize '>{btnText}</button></Link>
+
 </div>
 </motion.div>
   </section>;
