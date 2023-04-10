@@ -9,6 +9,8 @@ import AllMenu from './components/AllMenu';
 import SingleMenu from './components/SingleMenu';
 import Cards from './components/Cards';
 import  {Route,Routes,BrowserRouter} from 'react-router-dom'
+import Checkout from './components/Checkout';
+import PayementScreen from './components/PayementScreen';
 
 
 
@@ -25,8 +27,11 @@ const App = () => {
 <Route path='/menu' element = {<AllMenu/>}/>
 <Route path='/singleorder' element = {<SingleMenu/>}/>
 <Route path='/addtocard' element = {<Cards/>}/>
+<Route path='/checkout' element = {<Checkout/>}/>
+<Route path='/payement' element = {<PayementScreen/>}/>
 
 </Routes>
+
 <Footer />
       <div className='h-[380px] md:h-[370px]'></div>
     </div>

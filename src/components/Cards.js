@@ -4,7 +4,7 @@ import Header from './Header'
 
 //import  {Card} from   'react-bootstrap'
 
-import { Row,Col,ListGroup,Image,Form, Button,Card} from 'react-bootstrap'
+import { Row,Col,ListGroup,Image, Button,Card} from 'react-bootstrap'
 
 import { menuData } from '../data';
 import { Link } from 'react-router-dom';
@@ -121,12 +121,13 @@ function Cards() {
       </ListGroup.Item>
 
       <ListGroup.Item>
-        <Button type = 'button' className=' py-3 px-3 my-3 mx-5 btn mb-8 mt-2 bg-gray-600 hover:bg-pink-200/80 cursor-pointer hover:text-black hover:text-[15px]' 
+        <Link to= '/checkout'><Button type = 'button' className=' py-3 px-3 my-3 mx-5 btn mb-8 mt-2 bg-gray-600 hover:bg-pink-200/80 cursor-pointer hover:text-black hover:text-[15px]' 
          >
 
           Proceed To Checkout
         
-        </Button>
+        </Button></Link>
+
 
       </ListGroup.Item>
 
