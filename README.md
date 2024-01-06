@@ -54,7 +54,7 @@ Start the development server:
 Visit http://localhost:3000/ in your web browser to explore the restaurant website.
 
 
-##Folder Structure
+## Folder Structure
 
 
 The project structure follows the standard React.js project layout:
