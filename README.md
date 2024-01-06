@@ -34,7 +34,7 @@ Make sure you have the following installed before setting up the project:
 1. Clone the repository to your local machine:
 
    
-      git clone https://github.com/WebDevZakaria/Restaurant-app.git
+       git clone https://github.com/WebDevZakaria/Restaurant-app.git
 
 2. Navigate to the project directory:
 
